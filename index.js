@@ -9,7 +9,7 @@ const admin = require('firebase-admin');
 app.use(cors());
 app.use(fileUpload());
 app.use(express.json());
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 8000;
 
 const { MongoClient } = require('mongodb');
 
